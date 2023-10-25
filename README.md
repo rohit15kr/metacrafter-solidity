@@ -23,5 +23,7 @@ This is a simple Solidity smart contract for an ERC-20 token named "MyToken." It
    - Example: `burn(0x123abc, 50)`
 
 3. **Balance Inquiry:**
-   - Variable: `balances`
+   - Variable: `balance`
    - Description: Mapping of addresses to their token balances.
+  
+   
