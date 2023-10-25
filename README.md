@@ -13,12 +13,12 @@ This is a simple Solidity smart contract for an ERC-20 token named "MyToken." It
 ## Features
 
 1. **Minting:**
-   - Function: `mint(address _address, uint _value)`
+   - Function: `mint(address addr, uint val)`
    - Description: Mint new tokens and assign them to the specified address.
    - Example: `mint(0x123abc, 100)`
 
 2. **Burning:**
-   - Function: `burn(address _address, uint _value)`
+   - Function: `burn(address addr, uint val)`
    - Description: Burn tokens from the specified address, reducing the total supply.
    - Example: `burn(0x123abc, 50)`
 
